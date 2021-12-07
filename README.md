@@ -4,7 +4,9 @@ This is a basic youtube clone but for uploading quick videos through screen reco
 
 You can view the [quick-vid-client](https://github.com/Benrobo/quick-vid)
 
-<img>
+<img src="https://raw.githubusercontent.com/Benrobo/quick-vid/main/s%20(1).png">
+<img src="https://raw.githubusercontent.com/Benrobo/quick-vid/main/s%20(2).png">
+<img src="https://raw.githubusercontent.com/Benrobo/quick-vid/main/s%20(3).png">
 
 # Getting Started with Create React App
 
