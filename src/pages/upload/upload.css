@@ -1,0 +1,68 @@
+.main-cont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-cont {
+  width: 450px;
+  height: 200px;
+  background: #000;
+  position: relative;
+  border-radius: 10px;
+}
+
+.upload-cont .head {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  border-bottom: 1px solid var(--text-gd);
+  padding: 10px;
+  color: var(--text-g);
+}
+
+.upload-cont .body {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.upload-cont .body input {
+  background: var(--dark3);
+  border: none;
+  outline: none;
+  color: var(--light);
+}
+
+.upload-cont .body input:focus {
+  border: none;
+  outline: none;
+}
+
+.upload-cont .body .upload-box {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.upload-cont .body .upload-box .actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.upload-cont .body .upload-box .btn {
+  padding: 15px 30px;
+}
+
+.upload-cont .body .upload-box .vid {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* background: red; */
+}

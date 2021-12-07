@@ -1,0 +1,63 @@
+@import url("../../main.css");
+
+a {
+  text-decoration: none;
+  color: var(--text-g);
+}
+
+.video-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 0px;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+.video-container a {
+  text-decoration: none;
+  color: var(--text-g);
+}
+.video-container .vid-card {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  margin: 20px;
+  opacity: 0.4;
+  transition: 0.2s ease;
+  transform: scale(0.95);
+  border-radius: 10px;
+  cursor: pointer;
+  /* margin: 20px auto; */
+}
+
+.video-container .vid-card:hover {
+  opacity: 1;
+  transition: 0.2s ease;
+  transform: scale(1);
+  text-decoration: none;
+  color: var(--text-g);
+}
+
+.video-container .vid-card .img-cont {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-container .vid-card .time-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-g);
+  padding: 10px 0px 0px 0px;
+}
+.video-container .vid-card .vid-info {
+  padding: 10px 0px 0px 0px;
+}

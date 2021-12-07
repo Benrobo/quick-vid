@@ -1,0 +1,54 @@
+@import url("../../main.css");
+
+.comment-container {
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  flex-direction: column;
+}
+
+.comment-container .comment-card {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.comment-container .comment-card img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.comment-container .comment-card .comment-text {
+  width: 85%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 12px;
+  padding: 2px;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+
+.comment-container .comment-card .comment-text small {
+  color: var(--text-g);
+}
+.comment-container .comment-card .comment-text span {
+  width: 100%;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1024px) {
+  .comment-container .comment-card .comment-text {
+    width: 100%;
+  }
+}

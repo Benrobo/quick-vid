@@ -1,0 +1,91 @@
+@import url("../../main.css");
+
+a {
+  text-decoration: none;
+  color: var(--text-g);
+}
+
+.nav-cont {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.nav-cont .logo {
+  width: 60px;
+}
+
+.nav-cont .search {
+  width: 70%;
+}
+.nav-cont .search-inp {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  border-radius: 0px;
+  border-bottom: 1px solid var(--text-g);
+}
+
+.nav-cont .user-info {
+  position: relative;
+  top: 0px;
+  display: flex;
+}
+
+.nav-cont .user-info .btn {
+  transform: scale(0.75);
+}
+.nav-cont .user-info img {
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: scale(0.85);
+  transition: 0.2s ease;
+}
+
+.nav-cont .user-info img:hover {
+  transform: scale(0.95);
+  transition: 0.2s ease;
+}
+
+.nav-cont .user-info .more-info-cont {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 110px;
+  background: #000;
+  box-shadow: 0px 0px 10px #000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px;
+  border-radius: 6px;
+  z-index: 100;
+  overflow: hidden;
+  /* display: none; */
+}
+
+.nav-cont .user-info .more-info-cont li {
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.nav-cont .user-info .more-info-cont li a {
+  color: var(--text-w);
+  text-decoration: none;
+}
+
+.nav-cont .user-info .more-info-cont li:hover {
+  background: var(--dark3);
+}

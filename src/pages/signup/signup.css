@@ -1,0 +1,29 @@
+@import url("../../main.css");
+
+.back-cont {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  color: var(--text-w);
+  font-size: 30px;
+  z-index: 100;
+}
+
+.auth-cont {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  left: 0px;
+  padding: 12px;
+}
+
+.auth-cont .auth-form {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  background: #000;
+  padding: 12px;
+}
