@@ -1,6 +1,10 @@
-### Quick Vid
+### Quick Vid API
 
-You can view the [quick-vid-API](https://github.com/Benrobo/quick-vid-api)
+This is a basic youtube clone but for uploading quick videos through screen recording which can then be watched, comment and also share the recorded video. This was xcreated using the LoomSDK
+
+You can view the [quick-vid-client](https://github.com/Benrobo/quick-vid)
+
+<img>
 
 # Getting Started with Create React App
 
