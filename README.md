@@ -8,6 +8,37 @@ You can view the [quick-vid-client](https://github.com/Benrobo/quick-vid)
 <img src="https://raw.githubusercontent.com/Benrobo/quick-vid/main/s%20(2).png">
 <img src="https://raw.githubusercontent.com/Benrobo/quick-vid/main/s%20(3).png">
 
+## Inspiration
+
+We all know how stressful it is to look for quick tutorials out there, sometimes when we go online to search an article from a blog posts, we dont get exactly what we want and sometimes we we also dont remember what we read in that blog posts. That when quick-vid was born, quick vid is a clone of youtube which allow users to register, get logged in and upload a quick video tutorials by recording their pc and then save within the site which an be shared latter to who ever you like or to either slack workspace and discord server.
+
+<img src="https://raw.githubusercontent.com/Benrobo/quick-vid/main/s%20(1).png">
+<img src="https://raw.githubusercontent.com/Benrobo/quick-vid/main/s%20(2).png">
+
+## What it does
+
+It allows users to record their screen for a quick video tutorial or any other educational activities and automatically be shared on the platform.
+
+## How we built it
+
+This was built on top of the LoomSDK along with React.js and Node.js, Express.js and Postgresql for the backend
+
+## Challenges we ran into
+
+Some of the challenges i passed through was not able to add more functionality for screen recording and other complex features as i was limited to what the loomSDK provided.
+
+## Accomplishments that we're proud of
+
+I was proud to get this app up and running as quickly as possible
+
+## What we learned
+
+Am really great full of having this experience with the possibilities and doors open when it comes video messaging which LoomSDK provided for we developers.
+
+## What's next for quick-vid
+
+Well as this is just the MVP of this application, i planned to expand more on this in later future to come.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
