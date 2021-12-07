@@ -87,7 +87,6 @@ function Upload() {
                                 "content-type": "application/json",
                                 "authorization": `Bearer ${refreshToken}`
                             }, sendData)
-                            console.log(req, res)
                             if (req.status === 200) {
                                 setLoading(false);
                                 setDonloading(true);

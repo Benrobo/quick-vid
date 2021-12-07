@@ -93,7 +93,6 @@ function WatchVideo() {
             if (req.status === 200 && res) {
                 setCommentLoading(false);
                 setCommentData([...res])
-                console.log(res)
                 setCommentLength(res.length)
                 return
             }
@@ -108,8 +107,6 @@ function WatchVideo() {
             setError("Something went wrong fetching posts")
         }
     }
-
-    // console.log(commentData)
 
     return (
 
